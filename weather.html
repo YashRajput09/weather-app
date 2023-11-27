@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="Enter your location" class="input-box">
+            <button class="bx bx-search"></button>
+        </div>
+
+        <p class="city-hide">India</p>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="./Start Project Weather App HTML CSS Javascript/images/cloud.png" alt="">
+                        <p class="temperature">0 <span>°C</span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0Km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="not-found">
+            <div class="box">
+                <img src="./Start Project Weather App HTML CSS Javascript/images/404.png">
+                <p>Opps! location not found</p>
+            </div>
+        </div>
+    </div>
+<!-- <img src="./Start Project Weather App HTML CSS Javascript/images/cloud.png" alt=""> -->
+    <script src="weather.js"> </script>
+</body>
+</html>
